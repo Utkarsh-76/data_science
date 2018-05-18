@@ -41,6 +41,26 @@ def extract_names(filename):
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
   # +++your code here+++
+  with open(filename,mode='r') as file:
+    content = file.readlines()
+  for line in content:
+    if line[0:32] == "<h3 align=\"center\">Popularity in":
+	  year = line[33:37]
+	  break
+	  
+  boy_list = []
+  girl_list = []
+  for line in content:
+    if line[0:22] == "<tr align=\"right\"><td>":
+	  rank = line[23]
+	  boy_name = line[33:37]
+	  girl_name = line[40:45]
+	  boy_list.append((rank,boy_name))
+	  girl_list.append((rank,girl_name))
+	  
+  print(boy_list)
+	  
+  print(year)
   return
 
 
@@ -63,6 +83,9 @@ def main():
   # +++your code here+++
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
+  
+  filename='baby1990.html'
+  extract_names(filename)
   
 if __name__ == '__main__':
   main()
