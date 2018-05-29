@@ -45,22 +45,25 @@ def extract_names(filename):
     content = file.readlines()
   for line in content:
     if line[0:32] == "<h3 align=\"center\">Popularity in":
-	  year = line[33:37]
-	  break
+      year = line[33:37]
+      break
 	  
   boy_list = []
   girl_list = []
   for line in content:
     if line[0:22] == "<tr align=\"right\"><td>":
-	  rank = line[23]
-	  boy_name = line[33:37]
-	  girl_name = line[40:45]
-	  boy_list.append((rank,boy_name))
-	  girl_list.append((rank,girl_name))
-	  
+      rank_ = re.findall(r'\>\d+\<',line)
+      rank = rank_[0][1:-1]
+      boy_girl = re.findall(r'\>[a-zA-Z]+\<',line)
+      boy_name = boy_girl[0][1:-1]
+      girl_name = boy_girl[1][1:-1]
+      boy_list.append(boy_name + ' ' + rank)
+      girl_list.append(girl_name + ' ' + rank)
+	
+  boy_list = [year] + boy_list
+  girl_list = [year] + girl_list
   print(boy_list)
-	  
-  print(year)
+  print(girl_list)
   return
 
 
@@ -70,9 +73,9 @@ def main():
   # which is the script itself.
   args = sys.argv[1:]
 
-  if not args:
-    print 'usage: [--summaryfile] file [file ...]'
-    sys.exit(1)
+  # if not args:
+  #   print 'usage: [--summaryfile] file [file ...]'
+  #   sys.exit(1)
 
   # Notice the summary flag and remove it from args if it is present.
   summary = False
