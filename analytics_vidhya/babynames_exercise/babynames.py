@@ -62,6 +62,8 @@ def extract_names(filename):
 	
   boy_list = [year] + boy_list
   girl_list = [year] + girl_list
+  boy_list.sort()
+  girl_list.sort()
   print(boy_list)
   print(girl_list)
   return
@@ -73,9 +75,9 @@ def main():
   # which is the script itself.
   args = sys.argv[1:]
 
-  # if not args:
-  #   print 'usage: [--summaryfile] file [file ...]'
-  #   sys.exit(1)
+  if not args:
+    print('usage: [--summaryfile] file [file ...]')
+    sys.exit(1)
 
   # Notice the summary flag and remove it from args if it is present.
   summary = False
@@ -87,7 +89,7 @@ def main():
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
   
-  filename='baby1990.html'
+  filename=args[0]
   extract_names(filename)
   
 if __name__ == '__main__':
