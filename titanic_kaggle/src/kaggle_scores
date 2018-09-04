@@ -1,4 +1,6 @@
 decision tree(gini) with NaN age as mean in test as well as train, 0.732
 decision tree(gini) with NaN age as mean in test and dropna in train, 0.718
 decision tree(entropy) with NaN age as mean in test as well as train, 0.732
-decision tree(entropy) with NaN age filled using linear regression,
+decision tree(entropy) with NaN age filled using linear regression,0.702
+Random Forest with NaN age filled using linear regression,0.737
+Gradient Boosting with NaN age filled using linear regression,0.742
