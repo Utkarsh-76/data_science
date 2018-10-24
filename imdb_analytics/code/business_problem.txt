@@ -1,0 +1,2 @@
+1. Predict rating based on cast of the movie and number of votes
+2. Predict runtime Minutes based on cast of the movie
