@@ -1,0 +1,17 @@
+FILE NAME,NAME,EMAIL1,EMAIL2,EMAIL3,EMAIL4,PHONE1,PHONE2,PHONE3,PHONE4,INSTITUTES1,YEARS1,INSTITUTES2,YEARS2,INSTITUTES3,YEARS3,INSTITUTES4,YEARS4,INSTITUTES5,YEARS5,EXPERIENCE,DEGREES
+resumes\aditya_bhartia.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice1.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\atul_sharma.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\sandeep_chandaliya.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\aditya_bhartia.pdf,Aditya Bhartia,adityabhartia@yahoo.com,,,,+91 9820929220,,,,I.C.A.I,2003,Shri Ram College of Commerce,0,NULL,0,NULL,0,E,0,0,['ca', 'b.com', 'mba']
+resumes\invoice1.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice3.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\aditya_bhartia.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice1.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\atul_sharma.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\sandeep_chandaliya.pdf,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice2.docx,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice2.txt,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+resumes\invoice2.docx,None,,,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE
+FAILED_TO_WRITE
+resumes\invoice2.txt,None,email@address.com],,,,,,,,I.C.A.I,0,NULL,0,NULL,0,NULL,0,NULL,0,0,NONE

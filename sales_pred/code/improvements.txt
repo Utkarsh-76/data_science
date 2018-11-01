@@ -1,0 +1,21 @@
+0th THING
+Comment everything
+
+FIRST THING
+create test/train/validation
+
+HIGH PRIORITY
+Consider only last 5 months/n months data
+consider using other ML algos like random forest/GBM and tune hyper parameters
+
+DECENT PRIORITY
+Remove bottom 1% outliers
+Months since it was last sold
+Cosider using item return info
+
+LOW PRIORITY
+Data Leakages
+Optimize the matric
+
+VERY LOW PRIORITY
+new feature - total cost of item per month per shop - generated cost based on last time the item was sold
