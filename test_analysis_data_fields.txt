@@ -1,0 +1,56 @@
+https://www.embibe.com/ai
+
+
+Byju
+
+Analysis of each topic, needs improvement or not.
+Level of question
+Gender
+
+
+
+Embibe
+
+AI algos bologs
+Last few years cutoff
+Recommenced a test
+
+
+
+Inputs we already have
+
+Age
+Contact details
+Education Background
+Time on each question
+Topic of each question
+Number of attempts of each question
+Marking of each question
+Fluke attempt
+Silly mistake
+Time on analysis
+Type of each question
+
+
+
+My inputs
+
+Marked for review(attempted/not)
+Level of question marking for each student
+Time left for exam
+Region of the student
+Number of attempts
+Best subject/Interest of subject/Topic
+Category
+Weak areas
+Clear cutoff first and then score marks/score marks directly
+Education details like college/marks etc
+Family backgroud
+Took any other test series
+Coaching institute
+Anyone from 1st level family/close friends cleared/attempted this test
+Only this is the focus or giving any other test also
+Job/student/drop
+How much time on average do you give for preperation
+books/lectures/online material(ebooks, video lectures)
+At home/away from home
