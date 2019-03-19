@@ -1,0 +1,14 @@
+Hi Utkarsh,
+
+Please find below the test assignment we need you to complete.We are expecting you to get back to us with test results on or before 19th March 2019 .  
+
+A file with sample raw data is attached. Please answer the following questions using this file:
+
+1. What are some useful insights you can infer from the data?
+
+2. What insights can you offer about city-wise trends?
+
+3.a) What insights can you offer about new and returning customers? 
+   b) Does second purchase depend on what the user purchased first?
+
+Please make a brief report on this, preferably including tables, plots and supporting the text. Do share any code that was used to do this analysis.

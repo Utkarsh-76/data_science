@@ -1,0 +1,67 @@
+product_id and category_id are different things. Category means a perticular type like half sleeve round neck 100% cotton, single color T-shirt form Men, all different colors will have different product_id
+
+Order id 18268757 and 18268773 have same timestamp and sam order id
+
+Parent Id is Order Id of 1 item from the full order
+
+average price of all the itmes in ~2000(also in sub categories men(332000), women(82000), unisex(27000))
+
+prices are different from actual price
+
+top 5 products sold
+- Men	T-Shirt	Half Sleeve	100% Cotton  - 250725
+- Men	T-Shirt	Full Sleeve	100% Cotton  - 57724
+- Women	T-Shirt	Half Sleeve	100% Cotton  - 41389
+- Women	T-Shirt	3/4 Sleeve	100% Cotton  - 36111
+- Unisex	Mobile Cover                 - 25109
+
+Top 3 user ids
+- 5772295	160
+- 4411231	79
+- 6535017	63
+
+Top 3 Product_ids
+- 181795    8734
+- 181065    7787
+- 146121    6254
+
+Top 3 size(ids)
+- 2    126031
+- 3    107333
+- 4     63843
+
+
+Top 3 category(ids)
+- 160     236182
+- 134      48439
+- 1131     32108
+
+
+categories and sub categories 
+- Apparel: topwear, bottomwear
+- Accessories: Mobile Cover, Footwear , bags 
+
+
+Top 5 Products
+- Nahi Sudhrenge Half Sleeve T-Shirt            11725
+- Up In Smoke Typography Half Sleeve T-Shirt     8631
+- Marshmello Mask Half Sleeve T-Shirt            7787
+- Thoda Side Se Chaley Half Sleeve T-Shirt       7203
+- Duniya Jalti Hai Half Sleeve T-Shirt           7187
+
+
+Top 5 cities
+- Mumbai       24812
+- Pune         18350
+- Bangalore    16180
+- Thane        12835
+- Hyderabad    11371
+
+Top State - Maharashtra
+
+
+Dates with Highest Sales - 1st of each month(Aug,Sep,Oct)
+
+Hours with good sales(mean/total) - 20-22
+
+Hours with very less sale(mean/total) - 4-5
